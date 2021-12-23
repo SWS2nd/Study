@@ -1,0 +1,79 @@
+.wrapper {
+  width: 480px;
+  height: 800px;
+}
+
+.background {
+  width: 480px;
+  height: 500px;
+
+  background-color: #FFA5A5;
+  background-size: cover;
+
+  /*가로 가운데 정렬*/
+  text-align: center;
+  /*세로 가운데 정렬*/
+  display: table-cell;
+  vertical-align: middle;
+
+  color: white;
+  font-size: 20px;
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+  position: relative;
+}
+
+.hr_1 {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.profile_image {
+  width: 150px;
+  height: 150px;
+
+  border-radius: 100px;
+  border: 2px solid white;
+
+  position: absolute;
+  top: 430px;
+}
+
+.profile_name {
+  margin-top: 100px;
+
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons > img {
+  margin-top: 50px;
+  margin-inline: 20px;
+}
+
+.icons_header {
+  display: flex;
+  justify-content: center;
+}
+
+.icons_header > span {
+  margin-top: 30px;
+  margin-inline: 27px;
+
+  font-size: 12px;
+  font-weight: bold;
+}
