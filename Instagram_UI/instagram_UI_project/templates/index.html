@@ -1,10 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8"/>
+
+  <link rel="stylesheet" href="/static/styles.css"/>
+
+  <title>Instagram UI</title>
 </head>
+
 <body>
 
+  <!-- ===== 1. 헤더 파트 ===== -->
+  <header id="header_wrapper">
+    <img src="/images/insta-logo/camera@3x.png" width="6%" class="header_item"/>
+    <img src="/images/insta-logo/insta-logo.png" width="25%" class="header_item"/>
+    <img src="/images/insta-logo/dm@3x.png" width="6%" class="header_item"/>
+  </header>
+
+  <!-- ===== 2. 스토리's 파트 ===== -->
+  <aside id="stories_wrapper">
+    <div class="story_item">
+      <img src="/images/avatar3.png" class="story_icon"/>
+      <p class="small-text"><strong>내 스토리</strong></p>
+    </div>
+    <div class="story_item">
+      <img src="/images/avatar3.png" class="story_icon"/>
+      <p class="small-text"><strong>내 스토리</strong></p>
+    </div>
+    <div class="story_item">
+      <img src="/images/avatar3.png" class="story_icon"/>
+      <p class="small-text"><strong>내 스토리</strong></p>
+    </div>
+    <div class="story_item">
+      <img src="/images/avatar3.png" class="story_icon"/>
+      <p class="small-text"><strong>내 스토리</strong></p>
+    </div>
+    <div class="story_item">
+      <img src="/images/avatar3.png" class="story_icon"/>
+      <p class="small-text"><strong>내 스토리</strong></p>
+    </div>
+  </aside>
+
+  <!-- ===== 3. 피드's 파트 ===== -->
+  <main id="main_feed_container">
+
+    <!-- 피드 컨테이너 -->
+    <div class="feed_container">
+      <!-- top 부분 -->
+      <div class="feed_wrapper_top">
+        <div class="feed_item_top_user">
+          <img src="/images/avatar3.png" class="feed_icon_top"/>
+          <span class="feed_icon_top_name">이용자5</span>
+        </div>
+        <div class="feed_item_top_icon">
+          <img src="/images/insta-logo/more@3x.png" class="feed_icon_more"/>
+        </div>
+      </div>
+      <!-- middle 썸네일 부분-->
+      <div class="feed_wrapper_thumbnail">
+        <div class="feed_item_thumbnail">
+          <img src="https://live.staticflickr.com/5521/11507418403_4bf2bc4102_b.jpg" class="feed_thumbnail">
+        </div>
+      </div>
+      <!-- middle 로고 부분 -->
+      <div class="feed_wrapper_middle_logo">
+        <div class="feed_item_middle_logo_3">
+          <img src="/images/insta-logo/like@3x.png" class="feed_icon_middle"/>
+          <img src="/images/insta-logo/comment@3x.png" class="feed_icon_middle">
+          <img src="/images/insta-logo/dm@3x.png" class="feed_icon_middle"/>
+        </div>
+        <div class="feed_item_middle_logo_1">
+          <img src="/images/insta-logo/favorite@3x.png" class="feed_icon_middle"/>
+        </div>
+      </div>
+      <!-- bottom 부분 -->
+      <div class="feed_wrapper_bottom">
+        <img src="/images/avatar3.png" class="feed_icon_bottom"/>
+        <span class="feed_bottom_likecomment">이용자님 외 7777명이 좋아합니다.</span>
+        <p class="feed_bottom_comment">이용자님 안녕하세요</p>
+        <p class="feed_bottom_time">8시간 전</p>
+      </div>
+    </div>
+
+    <!-- 피드 컨테이너 -->
+    <div class="feed_container">
+      <!-- top 부분 -->
+      <div class="feed_wrapper_top">
+        <div class="feed_item_top_user">
+          <img src="/images/avatar3.png" class="feed_icon_top"/>
+          <span class="feed_icon_top_name">이용자5</span>
+        </div>
+        <div class="feed_item_top_icon">
+          <img src="/images/insta-logo/more@3x.png" class="feed_icon_more"/>
+        </div>
+      </div>
+      <!-- middle 썸네일 부분-->
+      <div class="feed_wrapper_thumbnail">
+        <div class="feed_item_thumbnail">
+          <img src="https://live.staticflickr.com/5521/11507418403_4bf2bc4102_b.jpg" class="feed_thumbnail">
+        </div>
+      </div>
+      <!-- middle 로고 부분 -->
+      <div class="feed_wrapper_middle_logo">
+        <div class="feed_item_middle_logo_3">
+          <img src="/images/insta-logo/like@3x.png" class="feed_icon_middle"/>
+          <img src="/images/insta-logo/comment@3x.png" class="feed_icon_middle">
+          <img src="/images/insta-logo/dm@3x.png" class="feed_icon_middle"/>
+        </div>
+        <div class="feed_item_middle_logo_1">
+          <img src="/images/insta-logo/favorite@3x.png" class="feed_icon_middle"/>
+        </div>
+      </div>
+      <!-- bottom 부분 -->
+      <div class="feed_wrapper_bottom">
+        <img src="/images/avatar3.png" class="feed_icon_bottom"/>
+        <span class="feed_bottom_likecomment">이용자님 외 7777명이 좋아합니다.</span>
+        <p class="feed_bottom_comment">이용자님 안녕하세요</p>
+        <p class="feed_bottom_time">8시간 전</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== 4. 풋터 파트 ===== -->
+  <footer id="footer_wrapper">
+    <img src="/images/insta-logo/home@3x.png" width="6%" class="footer_item"/>
+    <img src="/images/insta-logo/search@3x.png" width="6%" class="footer_item"/>
+    <img src="/images/insta-logo/trending@3x.png" width="6%" class="footer_item"/>
+    <img src="/images/insta-logo/like@3x.png" width="6%" class="footer_item"/>
+    <img src="/images/insta-logo/home@3x.png" width="6%" class="footer_item"/>
+  </footer>
 </body>
 </html>
