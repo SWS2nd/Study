@@ -1,0 +1,174 @@
+/* ===== 1. 헤더 파트 ===== */
+#header_wrapper {
+  position: fixed;
+
+  width: 90%;
+
+  top: 0%;
+  margin: 0% 0%;
+  padding: 2% 4%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+
+  border-bottom: thin solid gray;
+}
+
+
+/* ===== 2. 스토리's 파트 ===== */
+#stories_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12% auto 0% auto;
+
+  background-color: #F6F6F6;
+
+  border-top: thin solid gray;
+  border-bottom: thin solid gray;
+}
+.story_item {
+  margin: 2% auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.story_icon {
+  width: 150%;
+
+  border-radius: 500%;
+  border: thin solid red;
+}
+.small-text {
+  font-size: 150%;
+}
+
+
+/* ===== 3. 피드's 파트 ===== */
+
+#main_feed_container {
+  width: 100%;
+}
+
+.feed_container {
+  height: 100%;
+
+  border-bottom: 1px solid black;
+}
+
+/*--- top 부분 ---*/
+.feed_wrapper_top {
+  width: 90%;
+  margin : 2% 4%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed_item_top_user {
+  width: 50%;
+}
+.feed_icon_top {
+  width: 20%;
+  vertical-align:middle;
+
+  margin-right: 5%;
+}
+.feed_icon_top_name {
+  font-size: 200%;
+  font-weight: bold;
+}
+.feed_icon_more {
+  width: 150%;
+}
+
+/*--- middle 썸네일 부분 ---*/
+.feed_thumbnail {
+  width: 100%;
+}
+
+/*--- middle 로고 부분 ---*/
+.feed_wrapper_middle_logo {
+  width: 90%;
+
+  margin: 2% 4%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed_item_middle_logo_3 {
+  width: 30%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feed_item_middle_logo_1 {
+  width: 30%;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.feed_icon_middle {
+  width: 20%;
+}
+
+/*--- bottom 부분 ---*/
+.feed_wrapper_bottom {
+  width: 90%;
+
+  /* ========================== 확인필요 ============================ */
+  /* ========================== 확인필요 ============================ */
+  /* 이 부분 즉, 완전하게 내용이 짤리지 않고 아래로 다 나오려면 어떻게 해야할까? */
+  /*일단은 padding-bottom을 사용했으나, 이것은 아닌것*/
+  padding-bottom: 15%;
+  /* 이 부분 즉, 완전하게 내용이 짤리지 않고 아래로 다 나오려면 어떻게 해야할까? */
+  /*일단은 padding-bottom을 사용했으나, 이것은 아닌것*/
+  /* ========================== 확인필요 ============================ */
+  /* ========================== 확인필요 ============================ */
+
+  margin-left: 2%;
+}
+.feed_icon_bottom{
+  width: 8%;
+  vertical-align:middle;
+
+  margin-right: 1%;
+}
+.feed_bottom_likecomment {
+  font-weight: bold;
+  font-size: 200%;
+}
+.feed_bottom_comment {
+  font-weight: bold;
+  font-size: 200%;
+}
+.feed_bottom_time {
+  font-size: 150%
+}
+
+
+/* ===== 4. 풋터 파트 ===== */
+#footer_wrapper {
+  position: fixed;
+
+  width: 90%;
+
+  bottom: 0%;
+  margin: 0% 0%;
+  padding: 4% 4%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #F6F6F6;
+
+  border-top: thin solid gray;
+}
